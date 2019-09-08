@@ -1,0 +1,23 @@
+---
+
+bodyclass: index
+
+---
+<div class="container-fluid">
+	<div class="row frontpage">
+		<div class="col-lg-6 p-5 intro">
+			<h1 class="mb-lg-4">Niklas Stephenson</h1>
+			<p class="lead">I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present.</p>
+		</div>
+
+		<div class="col-lg-6 p-5 posts">
+			<% blog.articles.each do |article| %>
+				<div class="post mb-5 pb-5 border-bottom">
+					<h2><%= article.title %></h2>
+					<%= article.summary %>
+					<a href="<%= article.url %>" class="btn btn-outline-dark">Read more</a>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</div>

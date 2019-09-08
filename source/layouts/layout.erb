@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= current_page.data.title || "Niklas Stephenson" %></title>
+    <meta name="description" content="<%= current_page.data.description %>">
+    <%= javascript_include_tag 'site' %>
+    <%= stylesheet_link_tag "site" %>
+    <meta property="og:title" content="<%= current_page.data.title || "Legal Monster" %>">
+    <meta property="og:description" content="<%= current_page.data.description %>">
+    <meta property="og:image" content="<%= config[:host] %><%= image_path 'social-share.png' %>">
+    <meta property="og:url" content="<%= config[:host] %><%= current_page.url %>">
+    <meta property="og:site_name" content="Legal Monster ApS">
+    <meta name="twitter:title" content="<%= current_page.data.title || "Legal Monster" %>">
+    <meta name="twitter:description" content="<%= current_page.data.description %>">
+    <meta name="twitter:image" content="<%= config[:host] %><%= image_path 'social-share.png' %>">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+
+  <body class="<%= current_page.data.bodyclass || "" %>">
+    <%= yield %>
+  </body>
+</html>
