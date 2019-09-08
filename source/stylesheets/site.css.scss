@@ -20,6 +20,19 @@ body {
   h1 {
     font-size: 2.8rem;
   }
+
+  a {
+    color: #212529;
+    text-decoration: underline;
+
+    &:hover {
+      color: lighten(#212529, 20);
+    }
+  }
+
+  .btn {
+    text-decoration: none;
+  }
 }
 
 .index {
@@ -68,15 +81,16 @@ body {
   }
 
   .alignfull {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
     @include media-breakpoint-up(lg) {
       margin-left: calc(50% - 37.5vw);
       margin-right: calc(50% - 37.5vw);
       max-width: 75vw;
       width: auto;
     }
-
-    margin-top: 30px;
-    margin-bottom: 30px;
   }
 }
 
