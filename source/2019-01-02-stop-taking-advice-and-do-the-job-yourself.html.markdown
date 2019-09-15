@@ -1,7 +1,7 @@
 ---
 
 title: Stop taking advice and do the job yourself
-date: 2019-09-08 16:08 UTC
+date: 2019-01-02 16:08 UTC
 tags:
 
 ---

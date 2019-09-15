@@ -1,7 +1,7 @@
 ---
 
 title: Thoughts on code
-date: 2019-09-08 16:05 UTC
+date: 2019-04-08 16:05 UTC
 tags:
 
 ---
