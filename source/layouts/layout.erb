@@ -15,10 +15,10 @@
     <meta name="twitter:description" content="<%= current_page.data.description %>">
     <meta name="twitter:image" content="<%= config[:host] %><%= image_path 'social-share.png' %>">
     <meta name="twitter:card" content="summary_large_image">
+    <%= stylesheet_link_tag "site" %>
   </head>
 
   <body class="<%= current_page.data.bodyclass || "" %>">
-    <%= stylesheet_link_tag "site" %>
     <%= yield %>
   </body>
 </html>
