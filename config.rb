@@ -3,6 +3,8 @@
 
 require 'bootstrap'
 
+import_file File.expand_path("_headers", config[:source]), "/_headers"
+
 activate :directory_indexes
 activate :gzip
 activate :sprockets
