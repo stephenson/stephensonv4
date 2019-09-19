@@ -18,8 +18,7 @@
   </head>
 
   <body class="<%= current_page.data.bodyclass || "" %>">
-    <%= yield %>
-
     <%= stylesheet_link_tag "site" %>
+    <%= yield %>
   </body>
 </html>
