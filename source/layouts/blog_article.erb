@@ -6,6 +6,26 @@
         <%= yield %>
       </div>
     </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-5 mt-5 mb-5 p-4 border rounded-lg text-center">
+        <h2>Get new blogposts in your inbox</h2>
+        <p>I send all new blogposts out on email, so if you don't want to miss out, subscribe.</p>
+
+        <form class="text-left" action="https://stephenson.us17.list-manage.com/subscribe/post?u=33ec94a56a45e2e50f4244650&amp;id=1ddf384f90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+          <div class="form-group">
+            <label for="FNAME">Your first name</label>
+            <input name="FNAME" type="text" class="form-control" id="FNAME" placeholder="Enter your first name">
+            <small id="emailHelp" class="form-text text-muted">I have no need for your full name.</small>
+          </div>
+          <div class="form-group">
+            <label for="EMAIL">Email address</label>
+            <input name="EMAIL" type="email" class="form-control" id="EMAIL" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
   </div>
 
   <div class="container-fluid footer">
