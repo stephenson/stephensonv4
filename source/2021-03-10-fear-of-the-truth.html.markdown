@@ -15,7 +15,7 @@ We fear to be wrong, have bad ideas and look like a fool. We end up pissing in o
 
 The hard truth is that the result is even scarier when we sell ideas instead of discovering them. As a product manager and founder, I have multiple times made this mistake myself. I fell in love with an idea. When I made discovery, I ended up hardcore pitching and selling the concept to interviewees who didn't love it. Instead, I should have sat had an open mind trying to learn why they did not instantly like my brilliant thing and how they solved it today.
 
-Thorugh my misguided love for the idea, I ended up building multiple failed features that never got used, wasting countless resources and time while missing obvious excellent products and shortcuts to hight growth. 
+Through my misguided love for the idea, I ended up building multiple failed features that never got used, wasting countless resources and time while missing obvious excellent products and shortcuts to high growth. 
 
 It is the biggest mistake I ever made!
 
