@@ -15,16 +15,7 @@
     <meta name="twitter:description" content="<%= current_page.data.description %>">
     <meta name="twitter:image" content="<%= config[:host] %><%= image_path 'social-share.png' %>">
     <meta name="twitter:card" content="summary_large_image">
-    <%= stylesheet_link_tag "site" %>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=UA-43333192-1"></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-43333192-1');
-    </script>
+    <%= stylesheet_link_tag "out" %>
   </head>
 
   <body class="<%= current_page.data.bodyclass || "" %>">
