@@ -1,8 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-require 'bootstrap'
-
 import_file File.expand_path("_headers", config[:source]), "/_headers"
 
 activate :directory_indexes
