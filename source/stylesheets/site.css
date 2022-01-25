@@ -5,3 +5,7 @@
 article h2 {
   @apply mb-2 mt-10 dark:text-white !important;
 }
+
+article blockquote {
+  @apply dark:text-slate-200 !important;
+}
