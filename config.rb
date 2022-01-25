@@ -1,6 +1,8 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+ignore "/stylesheets/site.css"
+
 import_file File.expand_path("_headers", config[:source]), "/_headers"
 
 activate :directory_indexes
@@ -33,7 +35,7 @@ page "/legal.html", :layout => "legal"
 page "/legal/*", :layout => "legal"
 
 configure :build do
-  activate :minify_css
+  #activate :minify_css
   activate :minify_javascript
   activate :minify_html
   activate :asset_hash
