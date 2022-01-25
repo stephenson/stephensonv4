@@ -1622,6 +1622,10 @@ article h2 {
     --tw-text-opacity: 1 !important;
     color: rgb(226 232 240 / var(--tw-text-opacity)) !important;
   }
+
+  article img {
+    border-radius: 0.5rem !important;
+  }
 }
 
 .hover\:bg-opacity-75:hover {
