@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+article h1 {
+  @apply mb-2 mt-10 dark:text-white !important;
+}
+
 article h2 {
+  @apply mb-2 mt-10 dark:text-white !important;
+}
+
+article h3 {
   @apply mb-2 mt-10 dark:text-white !important;
 }
 
