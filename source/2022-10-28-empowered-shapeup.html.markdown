@@ -20,7 +20,7 @@ At [Whimsical](https://whimsical.com) we have five product teams. As VP Product,
 
 I have a ton of respect for the quality of the product that Basecamp has built, and it’s working for them. Over the years, however, I have learned that I am no Steve Jobs or [David Heinemeier Hansson](https://dhh.dk/). I need to substitute my personal lack of genius with empowerment and leadership.
 
-# ShapeUp at Whimsical
+## ShapeUp at Whimsical
 People that know me or have read other posts on my blog will know that I am a huge fan of [Marty Cagan](https://www.svpg.com)’s take on how to structure product teams. The core is building empowered teams ([he even wrote a book about it](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/)).
 
 At Whimsical we are mixing what Marty Cagan has taught us about empowerment with ShapeUp.
