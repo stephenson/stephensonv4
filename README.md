@@ -20,3 +20,6 @@ Find full gallery here: https://fontawesome.com/icons?d=gallery
 ## TAILWIND
 
 `npx tailwindcss -i ./source/stylesheets/site.css -o ./source/stylesheets/out.css --watch`
+
+## Deploy to Synology
+run `./deploy.sh`
