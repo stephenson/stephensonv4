@@ -45,7 +45,7 @@ The trio will run a dual-track process where they focus on writing and developin
 <iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/8aynsvvpteCgS5j9HwFNRk"></iframe>
 
 ## Product Jams
-Product jams are bi-weekly meetings where our CEO, the Head of Engineering, the product trio, and I discuss the pitches that are being shaped. It’s the product trio that leads the meeting and the agenda. Leadership is not in the meeting to make decisions but rather to share feedback, knowledge, and thoughts on the direction of the individual pitches. The meeting is very much inspired by Pixar’s concept of Braintrusts.
+Product jams are bi-weekly meetings where our CEO, the Head of Engineering, the product trio, and I discuss the pitches that are being shaped. It’s the product trio that leads the meeting and the agenda. Leadership is not in the meeting to make decisions but rather to share feedback, knowledge, and thoughts on the direction of the individual pitches. The meeting is very much inspired by Pixar’s concept of [Braintrusts](https://www.youtube.com/watch?v=I1Mr3oKR7oM).
 
 ## Betting Table
 For sanity’s sake, we do a [betting table](https://basecamp.com/shapeup/2.2-chapter-08#the-betting-table) for each team. We are not fans of long meetings, and with five teams we would slowly run out of energy if it was one big meeting.
