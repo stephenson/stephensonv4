@@ -1845,6 +1845,16 @@ article h3 {
   article img {
     border-radius: 0.5rem !important;
   }
+
+  article p {
+    --tw-text-opacity: 1 !important;
+    color: rgb(226 232 240 / var(--tw-text-opacity)) !important;
+  }
+
+  article p a {
+    --tw-text-opacity: 1 !important;
+    color: rgb(99 102 241 / var(--tw-text-opacity)) !important;
+  }
 }
 
 .hover\:bg-indigo-700:hover {
@@ -1921,6 +1931,11 @@ article h3 {
   .dark\:bg-slate-900 {
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-indigo-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(49 46 129 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-slate-800 {

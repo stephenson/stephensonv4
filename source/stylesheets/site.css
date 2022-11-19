@@ -21,3 +21,11 @@ article blockquote {
 article img {
   @apply dark:rounded-lg !important;
 }
+
+article p {
+  @apply dark:text-slate-200 !important;
+}
+
+article p a {
+  @apply dark:text-indigo-500 !important;
+}
