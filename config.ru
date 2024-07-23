@@ -30,7 +30,7 @@ ONE_WEEK = 604_800
 
 # Attempt to serve static HTML files
 use Rack::TryStatic,
-  root: 'public',
+  root: 'build',
   urls: %w[/],
   try: %w(.html index.html /index.html),
   header_rules: [
