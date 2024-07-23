@@ -3,7 +3,7 @@
 title: What worked? The 1.000 dollar coach
 date: 2021-01-26 14:02 UTC
 tags: 
-
+published: false
 ---
 
 <iframe style="margin-bottom: 20px; margin-top: 20px;" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/04226864"></iframe>

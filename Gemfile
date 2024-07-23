@@ -17,6 +17,7 @@ gem 'rack-ssl'
 gem 'rack-cache'
 gem 'nokogiri'
 gem 'csv'
+gem 'middleman-cli'
 gem 'middleman-livereload', git: 'https://github.com/middleman/middleman-livereload.git'
 
 source 'https://rails-assets.org' do
