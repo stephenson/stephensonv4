@@ -6,7 +6,7 @@ tags:
 
 ---
 
-Shape Up is a fantastic framework for expressing opportunities and deciding what bets you want to place. Over the last few years, I have used multiple variants of Shape Up and helped a handful of companies implement the parts of Shape Up that fit their organisation. 
+[Shape Up](https://basecamp.com/shapeup) is a fantastic framework for expressing opportunities and deciding what bets you want to place. Over the last few years, I have used multiple variants of Shape Up and helped a handful of companies implement the parts of Shape Up that fit their organisation. 
 
 One thing that have ben common in all places have been OKRs.
 
@@ -42,4 +42,4 @@ Another brutal fact is that most companies are shit (sorry for my language) at d
 
 There clearly is a utopia where all you need is Shape Up, but for the rest of us, OKRs and Shape Up are not the worst fit in the world.
 
-I would love to hear how you run your Shape Up process and how you fit it into your company. Ping me on X or shoot me an email.
+I would love to hear how you run your Shape Up process and how you fit it into your company. Ping me on [X](https://x.com/nikstep) or shoot me an [email](mailto:niklas@stephenson.dk).
