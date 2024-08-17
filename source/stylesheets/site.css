@@ -2,7 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "IA Writer Mono";
+  src: url('../fonts/iAWriterMonoS-Regular.eot'),
+       url('../fonts/iAWriterMonoS-Regular.woff2') format('woff2'),
+       url('../fonts/iAWriterMonoS-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IA Writer Mono Bold";
+  src: url('../fonts/iAWriterMonoS-Bold.eot'),
+       url('../fonts/iAWriterMonoS-Bold.woff2') format('woff2'),
+       url('../fonts/iAWriterMonoS-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+article h1 {
+  @apply mb-2 mt-10 dark:text-white !important;
+}
+
 article h2 {
+  @apply mb-2 mt-10 dark:text-white !important;
+}
+
+article h3 {
   @apply mb-2 mt-10 dark:text-white !important;
 }
 
@@ -12,4 +39,12 @@ article blockquote {
 
 article img {
   @apply dark:rounded-lg !important;
+}
+
+article p {
+  @apply dark:text-slate-200 !important;
+}
+
+article p a {
+  @apply dark:text-indigo-500 !important;
 }

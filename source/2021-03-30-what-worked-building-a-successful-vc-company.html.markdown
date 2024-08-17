@@ -3,6 +3,7 @@
 title: What Worked - Building a successful VC company
 date: 2021-03-30 08:31 UTC
 tags: 
+published: false
 
 ---
 
