@@ -1708,8 +1708,8 @@ select {
   text-align: center;
 }
 
-.font-sans {
-  font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-iawriter {
+  font-family: IA Writer Mono, sans-serif;
 }
 
 .text-base {
@@ -1854,6 +1854,30 @@ select {
 
 .outline {
   outline-style: solid;
+}
+
+@font-face {
+  font-family: "IA Writer Mono";
+
+  src: url('../fonts/iAWriterMonoS-Regular.eot'),
+       url('../fonts/iAWriterMonoS-Regular.woff2') format('woff2'),
+       url('../fonts/iAWriterMonoS-Regular.woff') format('woff');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IA Writer Mono Bold";
+
+  src: url('../fonts/iAWriterMonoS-Bold.eot'),
+       url('../fonts/iAWriterMonoS-Bold.woff2') format('woff2'),
+       url('../fonts/iAWriterMonoS-Bold.woff') format('woff');
+
+  font-weight: 700;
+
+  font-style: normal;
 }
 
 article h1 {

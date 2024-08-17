@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        iawriter: ["IA Writer Mono", "sans-serif"],
+        iawriterbold: ["IA Writer Mono Bold", "sans-serif"],
       },
     },
   },
