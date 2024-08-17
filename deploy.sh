@@ -2,7 +2,8 @@ npx tailwindcss -i ./source/stylesheets/site.css -o ./source/stylesheets/out.css
 
 middleman build
 
-echo "Moving files to Synology"
-cp -R build/* /Volumes/Niklas/web/www.stephenson.dk
+git add --all
 
-echo "Deploy done"
+git commit -a -m "New deploy triggered"
+
+git push origin master
