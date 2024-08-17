@@ -1853,6 +1853,8 @@ select {
   font-weight: normal;
 
   font-style: normal;
+
+  font-display: swap;
 }
 
 @font-face {
@@ -1865,6 +1867,8 @@ select {
   font-weight: 700;
 
   font-style: normal;
+
+  font-display: swap;
 }
 
 article h1 {
