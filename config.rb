@@ -39,6 +39,8 @@ configure :build do
   activate :minify_javascript
   activate :minify_html
   activate :asset_hash
+
+  config[:build_dir] = 'public'
 end
 
 configure :development do
