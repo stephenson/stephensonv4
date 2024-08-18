@@ -44,9 +44,9 @@ article img {
 }
 
 article p {
-  @apply dark:text-slate-200 !important;
+  @apply dark:text-slate-700 !important;
 }
 
-article p a {
-  @apply dark:text-indigo-500 !important;
+a {
+  @apply dark:text-red-500 !important;
 }
