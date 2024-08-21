@@ -1420,6 +1420,11 @@ select {
   margin-bottom: 0;
 }
 
+.prose-green {
+  --tw-prose-links: #16a34a;
+  --tw-prose-invert-links: #22c55e;
+}
+
 .prose-indigo {
   --tw-prose-links: #4f46e5;
   --tw-prose-invert-links: #6366f1;
@@ -1799,18 +1804,6 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
-.decoration-green-600 {
-  text-decoration-color: #16a34a;
-}
-
-.decoration-wavy {
-  text-decoration-style: wavy;
 }
 
 .antialiased {
