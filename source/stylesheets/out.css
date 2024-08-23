@@ -1911,12 +1911,7 @@ article h3 {
 
   article p {
     --tw-text-opacity: 1 !important;
-    color: rgb(51 65 85 / var(--tw-text-opacity)) !important;
-  }
-
-  a {
-    --tw-text-opacity: 1 !important;
-    color: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    color: rgb(226 232 240 / var(--tw-text-opacity)) !important;
   }
 }
 

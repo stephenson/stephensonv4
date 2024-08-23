@@ -1,16 +1,14 @@
-
-
 <p>-----</p>
 <p>Thoughts on building products</p>
 <p>Building SaaS products is a complex challenge; scaling the organization around it is even more complicated. I have tried to succeed in the two since I was young and have mostly failed. This blog is me trying to put words on what has worked.</p>
 <p>-----</p>
 
 <% blog.articles.each do |article| %>
-  <article class="mb-16">
+  <article class="mb-16 ">
     <a class="text-decoration-none" href="<%= article.url %>">
       <h2 class="text-xl font-iawriterbold"><%= article.title %></h2>
     </a>
-    <p>
+    <p class="prose-green prose-lg text-gray-900 dark:text-white">
       <%= article.summary %>
     </p>
 
