@@ -1,0 +1,23 @@
+---
+
+title: There should be no Junior Product Managers
+date: 2024-08-23 10:16 UTC
+tags:
+
+---
+
+As a craft, we are shooting ourselves in the food. There is overall in the market a huge influx of product managers, and we have ended up in a place where we are hiring too many product managers of too low quality, ending up hurting the value that the PM craft is overall delivering.
+
+A junior PM can not only add zero value but can, in the end, create negative value, as they have an entire team that needs their guidance and a product that needs to grow in the right direction. The price of mediocracy is exceptionally high!
+
+Junior PMs simply lack the breadth of knowledge, product sense, business understanding, and raw experience to deliver the needed impact.
+
+Often, it’s better not to have a PM than to have the wrong PM!
+
+Don’t hire straight out of school. If you want to hire someone who has not yet been a PM, ensure they are at least senior level in their current role. Senior engineers, designers, account managers, marketing or support roles are great places to find PMs
+
+Don’t hire any PMs before your company has more than 60 people. Until then, founders, designers, and engineers should cover all PM responsibilities.
+
+The best PMs are ex-founders who are taking a break from starting companies. Don’t settle for less energy and entrepreneurial spirit when choosing a non-founder.
+
+If you are a young person who wants to break into the fantastic world of Product Management, look at it like any other senior leadership role. There are a few steps to take first while you continue to learn all the parts of the craft needed to succeed as a PM. The best you can do is to spend your spare time building and launching a product by yourself!
