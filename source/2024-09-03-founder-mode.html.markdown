@@ -1,6 +1,6 @@
 ---
 
-title: Reflection on Founder mode from a former founder, now hired manager
+title: Reflection on Founder Mode from a former founder, now hired manager
 date: 2024-09-03 19:45 UTC
 tags: 
 
