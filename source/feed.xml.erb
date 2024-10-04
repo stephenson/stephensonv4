@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niklas Stephenson</title>
+    <description>Thoughts on building products</description>
+    <link>https://www.stephenson.dk/</link>
+    <atom:link href="https://www.stephenson.dk/feed.xml" rel="self" type="application/rss+xml" />
+    <% blog.articles[0..10].each do |article| %>
+      <item>
+        <title><%= article.title %></title>
+        <description><![CDATA[<%= article.summary(250) %>]]></description>
+        <pubDate><%= article.date.to_time.rfc822 %></pubDate>
+        <link><%= URI.join("https://www.stephenson.dk", article.url) %></link>
+        <guid isPermaLink="true"><%= URI.join("https://www.stephenson.dk", article.url) %></guid>
+      </item>
+    <% end %>
+  </channel>
+</rss>

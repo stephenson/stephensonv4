@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niklas Stephenson</title>
+    <description>Thoughts on building products</description>
+    <link>https://www.stephenson.dk/</link>
+    <atom:link href="https://www.stephenson.dk/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Break process</title>
+        <description><![CDATA[<p>When writing about product leadership, it’s easy to write about the process—the stuff that is easy to visualise and express. But the truth is that we only have processes to facilitate the lowest denominator of creativity in a team. We would have no...</p>]]></description>
+        <pubDate>Fri, 04 Oct 2024 11:26:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/break-process/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/break-process/</guid>
+      </item>
+      <item>
+        <title>Seasons in life</title>
+        <description><![CDATA[
+<p>I am often asked about when I am going to start a startup again and why the hell I am working for someone else instead of myself, and I know that a lot of former founders are getting asked the same when applying for jobs, heck even getting rejected...</p>]]></description>
+        <pubDate>Fri, 13 Sep 2024 11:27:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/seasons-in-life/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/seasons-in-life/</guid>
+      </item>
+      <item>
+        <title>Thoughts on a four-day workweek</title>
+        <description><![CDATA[
+<p>For the last year, I have worked at AutoUncle, which runs four-day workweeks, and I wanted to share my reflections a year in.
+First off, there are so many different setups called "four-day workweek" that I need to outline what it means at AutoUncle...</p>]]></description>
+        <pubDate>Mon, 09 Sep 2024 15:17:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/four-day-workweek/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/four-day-workweek/</guid>
+      </item>
+      <item>
+        <title>Reflection on Founder Mode from a former founder, now hired manager</title>
+        <description><![CDATA[<p>Twitter has blown up over the last few days after Paul Graham released his post on <a href="https://paulgraham.com/foundermode.html">Founder Mode</a>, which refers to a private talk that Brian Chesky, the founder of AirBNB, did at a Y Combinator dinner.</p>
+
+<p>I had to read the post three times before I went...</p>]]></description>
+        <pubDate>Tue, 03 Sep 2024 21:45:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/founder-mode/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/founder-mode/</guid>
+      </item>
+      <item>
+        <title>Shaping every day</title>
+        <description><![CDATA[<p>In Shape Up, a common mistake is to shape only when doing cooldown. “Cooldown is too short; I don’t have time to shape!" is a common complaint when introducing Shape Up into a product organisation.</p>
+
+<p>However, the problem is not the length of the cool...</p>]]></description>
+        <pubDate>Tue, 03 Sep 2024 12:32:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/shaping-every-day/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/shaping-every-day/</guid>
+      </item>
+      <item>
+        <title>There should be no Junior Product Managers</title>
+        <description><![CDATA[<p><img alt="" class="img-fluid" src="/images/lost-02f53119.jpg"></p>
+
+<p>As a craft, we are shooting ourselves in the foot. There is overall in the market a huge influx of product managers, and we have ended up in a place where we are hiring too many product managers of too low quality, ending up hurting the value that...</p>]]></description>
+        <pubDate>Fri, 23 Aug 2024 12:16:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/junior-product-managers/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/junior-product-managers/</guid>
+      </item>
+      <item>
+        <title>Shape Up and OKRs, a great couple or a disaster?</title>
+        <description><![CDATA[<p><a href="https://basecamp.com/shapeup">Shape Up</a> is a fantastic framework for expressing opportunities and deciding what bets you want to place. Over the last few years, I have used multiple variants of Shape Up and helped a handful of companies implement the parts of Shape Up that fit their...</p>]]></description>
+        <pubDate>Wed, 14 Aug 2024 21:47:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/shape-up-and-okrs/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/shape-up-and-okrs/</guid>
+      </item>
+      <item>
+        <title>Empowered Shape Up</title>
+        <description><![CDATA[<p><a href="https://basecamp.com/ShapeUp">Shape Up</a> by <a href="https://basecamp.com/">Basecamp</a> is an awesome, practical, and pragmatic introduction to the process surrounding product management. It offers great tools to describe and prioritize what to build and when. However, it also describes power dynamics that will slow...</p>]]></description>
+        <pubDate>Fri, 28 Oct 2022 09:23:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/empowered-shapeup/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/empowered-shapeup/</guid>
+      </item>
+      <item>
+        <title>Duel-track Shape Up</title>
+        <description><![CDATA[
+<p>Lately, I have talked to a lot of people about the shaping process of <a href="https://basecamp.com/Shape%20Up">Shape Up</a>. A common misunderstanding most have is that writing pitches are something you do in the last days leading up to the <a href="https://basecamp.com/Shape%20Up/2.2-chapter-08">betting table</a>, nothing could be more wrong.</p>
+
+<p>Writing...</p>]]></description>
+        <pubDate>Tue, 25 Jan 2022 10:59:00 +0100</pubDate>
+        <link>https://www.stephenson.dk/duel-track-shapeup/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/duel-track-shapeup/</guid>
+      </item>
+      <item>
+        <title>Fear of the truth</title>
+        <description><![CDATA[
+<p>When you start a company, it quickly becomes a big part of your identity. For many years, I was "Niklas from Firmafon". I had friends I met through the startup journey that only knew me due to my company.</p>
+
+<p>Putting your identity and feelings into your...</p>]]></description>
+        <pubDate>Wed, 10 Mar 2021 12:08:00 +0100</pubDate>
+        <link>https://www.stephenson.dk/fear-of-the-truth/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/fear-of-the-truth/</guid>
+      </item>
+      <item>
+        <title>Shiny new object syndrome</title>
+        <description><![CDATA[<p>Yesterday I talked to a candidate who was considering applying for a developer role at <a href="https://www.legalmonster.com">Legal Monster</a>
+, he could not understand why we did not apply ML/AI to solve problems.</p>
+
+<p>ML/AI is great for some things, but a lot of things can be solved with simpler...</p>]]></description>
+        <pubDate>Wed, 23 Sep 2020 12:40:00 +0200</pubDate>
+        <link>https://www.stephenson.dk/shiny-new-object-syndrome/</link>
+        <guid isPermaLink="true">https://www.stephenson.dk/shiny-new-object-syndrome/</guid>
+      </item>
+  </channel>
+</rss>
