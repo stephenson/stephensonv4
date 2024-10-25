@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <% if current_page.data.title.present? 
+        image = "https://socialcardcreator.com/api/v1/card.png?author_image=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1187686229992710144%2FEdtG2Jyy_400x400.jpg&eyebrow=www.stephenson.dk&author_name=Niklas%20Stephenson&heading=#{current_page.data.title}"
+      else
+        image = image_path('cards/social-share.png')
+      end
+    %>
     <meta charset="utf-8">
     <link rel="icon" href="<%= image_path('favicon.png') %>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,13 +15,13 @@
     <meta name="description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>">
     <meta property="og:title" content="<%= current_page.data.title || "Niklas Stephenson" %>">
     <meta property="og:description" content="<%= current_page.data.description %>">
-    <meta property="og:image" content="<%= config[:host] %><%= image_path(current_page.data.image || 'cards/social-share.png') %>">
+    <meta property="og:image" content="<%= image %>">
     <meta property="og:url" content="<%= config[:host] %><%= current_page.url %>">
     <meta property="og:site_name" content="Niklas Stephenson">
     <meta name="twitter:creator" content="@nikstep" />
     <meta name="twitter:title" content="<%= current_page.data.title || "Niklas Stephenson" %>">
     <meta name="twitter:description" content="<%= current_page.data.description %>">
-    <meta name="twitter:image" content="<%= config[:host] %><%= image_path(current_page.data.image || 'cards/social-share.png') %>">
+    <meta name="twitter:image" content="<%= image %>">
     <meta name="twitter:card" content="summary_large_image">
     <%= stylesheet_link_tag "out" %>
     <script src="https://cdn.usefathom.com/script.js" data-site="FLEIZUCI" defer></script>
