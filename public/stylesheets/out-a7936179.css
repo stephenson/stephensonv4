@@ -1684,6 +1684,10 @@ select {
      object-position: center;
 }
 
+.p-16 {
+  padding: 4rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -1691,11 +1695,6 @@ select {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 
 .px-5 {
@@ -1716,11 +1715,6 @@ select {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 .py-6 {
