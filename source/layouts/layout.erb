@@ -1,28 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <% if current_page.data.title.present? 
-        image = "https://socialcardcreator.com/api/v1/tmpl_01jbswpcf8mvr6937mrpg7m3a8.png?heading=#{current_page.data.title}"
-      else
-        image = image_path('cards/social-share.png')
-      end
-    %>
+
     <meta charset="utf-8">
     <link rel="icon" href="<%= image_path('favicon.png') %>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Niklas Stephenson" %></title>
     <meta name="description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>">
-    <meta property="og:title" content="<%= current_page.data.title || "Niklas Stephenson" %>">
-    <meta property="og:description" content="<%= current_page.data.description %>">
-    <meta property="og:image" content="<%= image %>">
-    <meta property="og:url" content="<%= config[:host] %><%= current_page.url %>">
-    <meta property="og:site_name" content="Niklas Stephenson">
-    <meta name="twitter:creator" content="@nikstep" />
-    <meta name="twitter:title" content="<%= current_page.data.title || "Niklas Stephenson" %>">
-    <meta name="twitter:description" content="<%= current_page.data.description %>">
-    <meta name="twitter:image" content="<%= image %>">
-    <meta name="twitter:card" content="summary_large_image">
+
     <%= stylesheet_link_tag "out" %>
     <script src="https://cdn.usefathom.com/script.js" data-site="FLEIZUCI" defer></script>
     <link rel="alternate" type="application/rss+xml" title="Niklas Stephenson" href="/feed.xml" />
@@ -34,6 +20,30 @@
     <link rel="preload" href="../fonts/iAWriterMonoS-Bold.eot" as="font">
     <link rel="preload" href="../fonts/iAWriterMonoS-Bold.woff2" as="font">
     <link rel="preload" href="../fonts/iAWriterMonoS-Bold.woff" as="font">
+
+    <% encoded_url = ERB::Util.url_encode(config[:host] + current_page.url) %>
+
+    <script src="https://cdn.jsdelivr.net/npm/ogkit@1"></script>
+
+    <meta property="og:title" content="<%= current_page.data.title || "Niklas Stephenson" %>" />
+    <meta property="og:description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= config[:host] %><%= current_page.url %>" />
+    <meta property="og:image" content="https://ogkit.dev/img/DERpgoSq.jpeg?url=<%= encoded_url %>" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<%= current_page.data.title || "Niklas Stephenson" %>" />
+    <meta name="twitter:description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>" />
+    <meta name="twitter:image" content="https://ogkit.dev/img/DERpgoSq.jpeg?url=<%= encoded_url %>" />
+    <template data-og-template>
+      <div class="bg-white px-40 py-36 flex flex-col justify-between">
+        <p class="text-[24px] text-gray-400 font-medium">stephenson.dk</p>
+        <h1 class="text-[64px] font-semibold leading-tight line-clamp-4"><%= current_page.data.title || "Niklas Stephenson" %></h1>
+        <div class="flex items-center">
+          <img class="size-20 rounded-xl" src="<%= image_path('niklas.jpg') %>">
+          <p class="pl-6 text-[28px] font-medium">Niklas Stephenson</p>
+        </div>
+      </div>
+    </template>
   </head>
 
   <body class="bg-white dark:bg-slate-900 font-iawriter antialiased">
