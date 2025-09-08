@@ -10,7 +10,6 @@
     <meta name="description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>">
 
     <%= stylesheet_link_tag "out" %>
-    <script src="https://cdn.usefathom.com/script.js" data-site="FLEIZUCI" defer></script>
     <link rel="alternate" type="application/rss+xml" title="Niklas Stephenson" href="/feed.xml" />
 
     <link rel="preload" href="../fonts/iAWriterMonoS-Regular.eot" as="font">
@@ -23,7 +22,9 @@
 
     <% encoded_url = ERB::Util.url_encode(config[:host] + current_page.url) %>
 
-    <script src="https://cdn.jsdelivr.net/npm/ogkit@1"></script>
+    <% if config[:environment] == :development %>
+      <script src="https://cdn.jsdelivr.net/npm/ogkit@1"></script>
+    <% end %>
 
     <meta property="og:title" content="<%= current_page.data.title || "Niklas Stephenson" %>" />
     <meta property="og:description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>" />
