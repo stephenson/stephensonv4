@@ -22,9 +22,9 @@
 
     <% encoded_url = ERB::Util.url_encode(config[:host] + current_page.url) %>
 
-    <% if config[:environment] == :development %>
+    <% #if config[:environment] == :development %>
       <script src="https://cdn.jsdelivr.net/npm/ogkit@1"></script>
-    <% end %>
+    <% #end %>
 
     <meta property="og:title" content="<%= current_page.data.title || "Niklas Stephenson" %>" />
     <meta property="og:description" content="<%= current_page.data.description || "I start and build companies, love great products and adventures on my motorcycle. Focus on enjoying life while never settling with the present." %>" />
