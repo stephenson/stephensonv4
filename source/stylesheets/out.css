@@ -1556,10 +1556,6 @@ select {
   height: 1.5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -1659,11 +1655,6 @@ select {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
@@ -1689,10 +1680,6 @@ select {
      object-position: center;
 }
 
-.p-16 {
-  padding: 4rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -1700,6 +1687,11 @@ select {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .px-5 {
@@ -1722,31 +1714,26 @@ select {
   padding-bottom: 0.75rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
 .py-36 {
   padding-top: 9rem;
   padding-bottom: 9rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -1759,10 +1746,6 @@ select {
 
 .font-iawriterbold {
   font-family: IA Writer Mono Bold, sans-serif;
-}
-
-.font-sans {
-  font-family: Inter var, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1780,9 +1763,16 @@ select {
   line-height: 2.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
 }
 
 .text-base {
@@ -1803,22 +1793,6 @@ select {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
-}
-
-.text-\[64px\] {
-  font-size: 64px;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-extrabold {
@@ -1849,6 +1823,11 @@ select {
   letter-spacing: -0.025em;
 }
 
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1872,11 +1851,6 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .antialiased {
